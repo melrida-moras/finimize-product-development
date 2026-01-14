@@ -1,52 +1,111 @@
-# finimize-product-development
-# Finimize — Data-Driven Product Development (Case Study Presentation, 2023)
+# Finimize — Data Strategy & Dashboard Prototypes (Case Study)
 
-A case-study style project exploring **Finimize** as a financial education/subscription platform, focusing on **growth strategy**, **product development (Ansoff Matrix)**, and a **data/analytics plan** to support decision-making and user experience improvements.
+A business + data analytics case study on **Finimize** focused on understanding the product, analysing growth opportunities, and proposing a **data-driven dashboard experience** to improve financial guidance and increase subscriptions.
 
-## What’s in this repository
-- **Presentation (PPTX):** `presentation/DA3 Group 4 Presentation (3).pptx`
-- (Optional) **PDF export:** `docs/finimize-case-study.pdf`
-- (Optional) **Slide images/screenshots:** `assets/`
+> **Note:** This is an academic/case-study project and is **not affiliated with Finimize**.  
+> All analysis and dashboard design showcased here was created by **Abhishek Jangam**.
 
-## Project overview
-Finimize simplifies financial information for modern retail investors by providing accessible insights, news, and education. This project evaluates Finimize’s positioning and proposes a **product development direction** supported by data collection and analysis.
+---
 
-### Key objectives
-- Understand *why Finimize* and its value proposition
-- Review performance/market positioning (high-level)
-- Use strategic frameworks to propose growth direction
-- Define the data needed for analytics and prediction to support product decisions
+## Project Summary
 
-## Approach
-This project uses a structured business + analytics lens:
+Finimize simplifies financial news and education for everyday investors. In this project, I:
+- reviewed Finimize’s positioning, growth signals, and business model,
+- conducted structured strategic analysis (e.g., SWOT, growth strategy framing),
+- proposed a **Product Development** direction (Ansoff),
+- designed **two dashboard prototypes**:
+  1) a **User Financial Health Dashboard** and  
+  2) a **Customer Satisfaction Summary Dashboard**
 
-### 1) Strategic analysis
-- **Investment highlights / business performance indicators** (high-level)
+The aim was to show how Finimize could use data to:
+- help users understand spending habits and financial health,
+- guide investment decisions based on risk/efficiency,
+- improve retention and conversion to paid subscriptions.
+
+---
+
+## What I Built / Delivered
+
+### 1) Strategy + Business Analysis
+- **Vision & Mission framing**
+- **Key business metrics** and performance indicators (revenue, cash flow, growth, engagement)
 - **SWOT analysis** (strengths, weaknesses, opportunities, threats)
-- **Ansoff Matrix** focus: **Product Development** (new product features for existing users/markets)
+- **Growth strategy direction** using Ansoff (focus: **Product Development**)
 
-### 2) Proposed product direction (example concept)
-A new feature direction includes a **user dashboard** for clearer personal finance visibility, such as:
-- **Monthly Spend Analyzer**
-- **Monthly income / savings snapshot**
-- Summary-style views that support better financial behaviour and engagement
+### 2) Data Requirements & Analytics Plan
+Defined what data is needed to support product decisions, including:
+- market and user engagement trends
+- financial efficiency & debt indicators
+- customer preferences and competitor landscape
+- regulatory and macroeconomic considerations
 
-### 3) Data & analytics plan
-A proposed analytics workflow covers:
-- Market trends analysis
-- Competitor analysis
-- Customer preference and behaviour analysis
-- Risk analysis and global economic context
+### 3) Dashboard Prototypes (Designed by Me)
 
-## Data sources considered (examples)
-- **Social media data** (sentiment, engagement signals)
-- **Web & clickstream data** (user journeys, drop-offs, content consumption)
-- **Mobile app data** (feature usage, retention signals)
+#### A) User Financial Health Dashboard
+A personalised view of a user’s finances to drive better decisions:
+- monthly income, savings, and expense breakdown
+- spending analysis and budget insights
+- financial efficiency scoring
+- debt-to-income indicator
+- investment allocation view (e.g., sectors/categories)
 
-## Example predictions / insights to generate
-- **Customer support ticket themes** → identify pain points and prioritise fixes
-- Engagement and retention signals → what content/features drive returning users
-- Behaviour patterns → how spend/income/savings interactions relate to user outcomes
-- Satisfaction drivers → what correlates with higher user satisfaction and subscription value
+**Goal:** guide financially non-efficient users toward better habits and encourage subscription uptake.
 
-## Repository structure
+#### B) Customer Satisfaction Summary Dashboard
+A product + growth view combining experience and engagement signals:
+- web/app engagement KPIs (traffic, session duration, bounce rate, conversions)
+- satisfaction distribution
+- user segmentation (age, gender, preferences)
+- subscription trend signals
+
+**Goal:** give a high-level view of customer health and identify drivers of churn vs retention.
+
+---
+
+## Key Questions the Product Should Ask Users
+To enable a personalised dashboard and meaningful recommendations:
+- **Income:** total monthly income, multiple income sources, % intended for investment
+- **Expenses:** regular spend categories (rent, groceries, transport), allocation of excess income
+- **Savings:** savings balance + other saving instruments
+- **Risk tolerance:** willingness to take investment risk
+
+---
+
+## Data Sources Considered (High Level)
+Examples of data that would support the dashboards:
+- user-entered finance details and/or transaction summaries
+- engagement analytics (web/app usage events)
+- customer feedback and satisfaction surveys
+- customer support tickets and resolution stats
+- market/competitor benchmarks
+- macroeconomic and regulatory signals
+
+---
+
+## Repository Contents
+
+- `slides/` — project presentation deck (case study)
+- `visuals/` — dashboard screenshots used in the presentation
+- `report/` — (optional) supporting write-up
+- `notebooks/` / `scripts/` — (optional) any analysis code, if included
+
+---
+
+## How to View
+- Open the **presentation** in `slides/`
+- Explore dashboard visuals in `visuals/`
+
+---
+
+## Next Improvements (If Extending This Project)
+- build the dashboards in a BI tool (Power BI/Tableau) or a web app (Plotly/Dash)
+- add a synthetic dataset to demonstrate end-to-end analytics
+- define KPI logic formally (financial efficiency, segmentation, conversion funnel)
+- add user testing notes and iteration rounds
+
+---
+
+## Author
+**Melrida Moras**  
+Dashboard design + analysis (case study)
+
