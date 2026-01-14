@@ -3,7 +3,7 @@
 A business + data analytics case study on **Finimize** focused on understanding the product, analysing growth opportunities, and proposing a **data-driven dashboard experience** to improve financial guidance and increase subscriptions.
 
 > **Note:** This is an academic/case-study project and is **not affiliated with Finimize**.  
-> All analysis and dashboard design showcased here was created by **Abhishek Jangam**.
+> All analysis and dashboard design showcased here was created by **Melrida Moras**.
 
 ---
 
